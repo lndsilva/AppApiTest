@@ -38,18 +38,23 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater menuInflater = getMenuInflater();
-        menuInflater.inflate(R.menu.menu_principal,menu);
+        menuInflater.inflate(R.menu.menu_principal, menu);
 
         return super.onCreateOptionsMenu(menu);
     }
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()){
-            case R.id.mBusca: Toast.makeText(getApplicationContext(),"Buscando",Toast.LENGTH_SHORT).show();
+        switch (item.getItemId()) {
+            case R.id.mBusca:
+                Toast.makeText(getApplicationContext(), "Buscando",
+                        Toast.LENGTH_SHORT).show();
+            case R.id.mFav:
+                Toast.makeText(getApplicationContext(), "Favorito",
+                        Toast.LENGTH_SHORT).show();
+            case R.id.mMail:
+                Toast.makeText(getApplicationContext(), "E-mail",
+                        Toast.LENGTH_SHORT).show();
         }
-
-
         return super.onOptionsItemSelected(item);
     }
 }
