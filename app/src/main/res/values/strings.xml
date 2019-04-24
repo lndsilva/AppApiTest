@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Teste</string>
+    <string-array name="filmes">
+        <item>Mulher Maravilha</item>
+        <item>Super Man</item>
+        <item>Batman</item>
+        <item>Lanterna Verde</item>
+        <item>Aquaman</item>
+        <item>Flash</item>
+    </string-array>
+</resources>
